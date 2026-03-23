@@ -6,6 +6,10 @@ class Addnum:
     def show(self):
         return self.num1, self.num2
 
+    def add(self):
+        return self.num1 + self.num2
+
 
 obj1 = Addnum(5, 4)
 print(obj1.show())
+print(obj1.add())
